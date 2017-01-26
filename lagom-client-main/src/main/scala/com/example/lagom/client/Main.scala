@@ -23,7 +23,6 @@ object Main extends App {
     headersResponse =>
       println(headersResponse)
       clientApp.stop()
-      System.exit(0)
   }
 
 }
